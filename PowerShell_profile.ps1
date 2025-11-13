@@ -26,7 +26,7 @@ function touch($file) {
     else { (Get-Item $file).LastWriteTime = Get-Date }
 }
 Set-Alias rm Remove-Item
-Set-Alias cp Copy-Item
+# Set-Alias cp Copy-Item
 Set-Alias mv Move-Item
 Set-Alias clear Clear-Host
 function grep($pattern, $path) {
