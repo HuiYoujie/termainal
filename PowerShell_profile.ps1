@@ -2,6 +2,8 @@
 # PowerShell 终端增强配置
 # ===========================
 
+# Invoke-Expression (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/HuiYoujie/termainal/main/PowerShell_profile.ps1')
+
 # oh-my-posh 初始化
 oh-my-posh init pwsh | Invoke-Expression
 Set-PoshPrompt -Theme paradox
